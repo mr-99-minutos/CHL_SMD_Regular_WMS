@@ -82,11 +82,11 @@
             // Agregar la fuente GeoJSON
             map.addSource('geojson-data', {
                 'type': 'geojson',
-                'data': './SMD_Regular_12082025_7_TI_AC.geojson' // Ruta al archivo GeoJSON
+                'data': './SMD_Regular_13112025_2.geojson' // Ruta al archivo GeoJSON
             });
 
             // Leer el GeoJSON y asignar colores aleatorios
-            fetch('./SMD_Regular_12082025_7_TI_AC.geojson')
+            fetch('./SMD_Regular_13112025_2.geojson')
                 .then(response => response.json())
                 .then(data => {
                     // Asignar colores a los nombres únicos
